@@ -11,6 +11,7 @@ let house = new Schema({
   year: { type: Number, required: true },
   price: { type: Number, required: true },
   description: { type: String, required: true },
+  imgUrl: { type: String, required: true }
 
   // this._id = data._id
   //   this.bedrooms = data.bedrooms
